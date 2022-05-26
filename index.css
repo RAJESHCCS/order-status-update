@@ -1,0 +1,74 @@
+*{
+margin:0;
+padding:0;
+}
+.container {
+	text-align: center;
+	background-color: #0097ff0f;
+	height: 100vh;
+	padding-bottom: 50px;
+}
+#heading{
+    /* height: 50px;
+    width: 100vw;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px; */
+    /* position: fixed; */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 72%, rgba(0,151,255,1) 96%);
+	color: white;
+	margin: 0;
+	padding: 20px
+}
+#order-id-input{
+
+    height: 50px;
+    width: 50vw;
+    border: 2px solid red;
+    text-content: center;
+    border-radius: 20px;
+}
+input::-webkit-input-placeholder {
+	text-align: center;
+}
+h2{
+    font-family: monospace;
+}
+
+button{
+    display: block;
+    border: none;
+    margin: 10px auto;
+    padding: 10px 15px;
+    /* background-color: blue; */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 72%, rgba(0,151,255,1) 96%);
+	color: white;
+	border-radius: 10px;
+	font-size: 1em;
+    
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-content: center;
+}
+
+div.status-block{
+    height: 50px;
+    width:500px;
+    box-sizing:border-box;
+    border:2px solid black;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 10px;
+   text-align: center;
+}
+body{
+  
+    /* align-content: center; */
+    margin: 0;
+
+}
+.done{
+	background-color: green;
+	color: white;
+}
